@@ -33,6 +33,11 @@ public class LinkedList {
         }
     }
 
+    /*
+
+    @param :
+    @return :
+     */
     public static void insertByPosition(LinkedList root , int val , int position){
         Node latestNode = new Node(val);
         Node nextNode = null;
@@ -109,6 +114,7 @@ public class LinkedList {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt() , p , q;
         LinkedList list = new LinkedList();
+
         while(n!=6){
             switch(n){
                 case 1 :
